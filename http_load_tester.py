@@ -5,7 +5,7 @@ import numpy
 import time
 from typing import Counter, Dict, Any, List, NamedTuple, Union
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 
 class HTTPReponse(NamedTuple):
     status_code: int
